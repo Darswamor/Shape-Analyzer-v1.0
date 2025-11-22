@@ -1,8 +1,8 @@
 # Shape-Analyzer
 # 📐 ShapeAnalyzer v1.0: C Dilinde Gelişmiş Geometrik Analiz Aracı
 
-![GitHub top language](https://img.shields.io/github/languages/top/Darswamor/ShapeAnalyzer)
-![GitHub license](https://img.shields.io/github/license/Darswamor/ShapeAnalyzer)
+[![GitHub top language](https://img.shields.io/github/languages/top/Darswamor/ShapeAnalyzer)](https://github.com/Darswamor/ShapeAnalyzer)
+[![GitHub license](https://img.shields.io/github/license/Darswamor/ShapeAnalyzer)](https://github.com/Darswamor/ShapeAnalyzer/blob/main/LICENSE.txt)
 
 Bu proje, Makine Mühendisliği 1. Sınıf öğrencisi Ömer Faruk Arslantürk tarafından C programlama dili kullanılarak geliştirilmiş, **modüler** ve **algoritmik derinliğe** sahip bir geometrik çözüm aracıdır. Kullanıcıdan alınan eksik kenar ve açı verilerini (0 olarak girilen) güvenilir trigonometrik algoritmalarla tamamlar ve detaylı bir rapor sunar.
 
