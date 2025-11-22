@@ -45,11 +45,15 @@ Bu proje, standart GNU GCC Derleyicisi kullanılarak derlenir.
 
 Programın algoritmik gücünü test etmek için aşağıdaki kritik senaryoları kullanabilirsiniz. (Programın 'Analiz Alt Menüsü'nden 3 girerek başlayın).
 
-| Test No. | Çözüm Tipi | Kenar a, b, c | Açı A, B, C | Beklenen Sonuç |
-| :---: | :--- | :--- | :--- | :--- |
-| **1** | **SSS (Dik Üçgen)** | 3, 4, 5 | 0, 0, 0 | `COZUM BASARILI`. Açı C: $\approx 90.00^{\circ}$ |
-| **2** | **SAS** | 12, 0, 15 | 0, 30, 0 | `COZUM BASARILI`. Eksik kenar b bulunur. |
-| **3** | **SSA (Belirsiz)** | 12, 0, 15 | 40, 0, 0 | **`COZUM BELIRSIZ`**. Veri güncellenmez. |
+| Test No. | Çözüm Yöntemi | Kenar a, b, c | Açı A, B, C | Amaç | Beklenen Sonuç |
+| :---: | :--- | :--- | :--- | :--- | :--- |
+| **1** | **SSS** | 3, 4, 5 | 0, 0, 0 | Tüm Eksik Açıların Bulunması. | **BASARILI** |
+| **2** | **SAS** | 12, 0, 15 | 0, 30, 0 | Tüm Eksik Kenarlar ve Açıların Bulunması. | **BASARILI** |
+| **3** | **ASA** | 0, 20, 0 | 45, 0, 75 | Tüm Eksik Kenarlar ve Açıların Bulunması. | **BASARILI** |
+| **4** | **SAA** | 5, 0, 0 | 60, 0, 40 | Tüm Eksik Kenarlar ve Açıların Bulunması. | **BASARILI** |
+| **5** | **SSA** | 15, 0, 10 | 100, 0, 0 | Tüm Eksik Kenarlar ve Açıların Bulunması. | **BASARILI** |
+| **6** | **SSA (Belirsiz)** | 12, 0, 15 | 40, 0, 0 | Belirsiz durumun tetiklenmesi. | **COZUM BELIRSIZ** (Veriler 0 kalır) |
+| **7** | **Geçersiz Giris** | 1, 2, 10 | 0, 0, 0 | Üçgen Eşitsizliği kontrolünün çalıþması. | **COZUM BASARISIZ** (Hata kodu 0) |
 
 ---
 
