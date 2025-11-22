@@ -59,7 +59,7 @@ Bu proje **MIT Lisansı** altında lisanslanmıştır. Metin şu şekildedir:
 
 > Copyright (c) 2025 Ömer Faruk Arslantürk
 
-Daha fazla bilgi için `LICENSE.txt` dosyasını inceleyebilirsiniz.
+Daha fazla bilgi için `LICENSE` dosyasını inceleyebilirsiniz.
 
 ## ➡️ Gelecek Planları (v2.0)
 
